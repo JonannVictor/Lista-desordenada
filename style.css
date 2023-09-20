@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    padding: 8px;
+}
+
+body {
+  display: flex;
+}
+.list {
+  color: green;
+  flex-direction: column;
+  display: flex;
+  align-items:center;   
+}
+
+.paulo {
+  color: red;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+
+#entradas {
+  background-color:#bdbdbd;
+  border-radius: 10px;
+  border-color: black;
+  box-shadow: 15px 5px 15px 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  width: 45%;
+  max-width: 1080px;
+  min-width: 235px;
+}
+
+#saidas {
+  background-color : #bdbdbd;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 13px 5px 15px 0px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  max-width: 1080px;
+  min-width: 235px;
+}
+
+h1 {
+  display: flex;
+  position: relative;
+  top: 12px;
+  font-weight: 100;
+  align-items: end;
+}
