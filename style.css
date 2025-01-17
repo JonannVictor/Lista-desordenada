@@ -1,53 +1,101 @@
-* {
-    margin: 0px;
-    padding: 8px;
-}
-
 body {
-  display: flex;
-}
-.list {
-  color: green;
-  flex-direction: column;
-  display: flex;
-  align-items:center;   
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.paulo {
-  color: red;
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
   display: flex;
-  height: 100%;
+  flex-direction: column;
   align-items: center;
-  flex-direction: column;
+  padding: 20px;
 }
 
-#entradas {
-  background-color:#bdbdbd;
-  border-radius: 10px;
-  border-color: black;
-  box-shadow: 15px 5px 15px 0px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-  width: 45%;
-  max-width: 1080px;
-  min-width: 235px;
+section {
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#saidas {
-  background-color : #bdbdbd;
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+#total-entradas, #total-saidas-paulo, #total-saidas-jonann, #total-saidas, #saldo-atual {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+#saldo-atual {
+  color: #333;
+}
+
+/* Adicionei essas linhas para tornar o layout responsivo */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section {
   width: 100%;
-  border-radius: 10px;
-  box-shadow: 13px 5px 15px 0px;
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
-  max-width: 1080px;
-  min-width: 235px;
 }
 
-h1 {
-  display: flex;
-  position: relative;
-  top: 12px;
-  font-weight: 100;
-  align-items: end;
+ul {
+  width: 100%;
+}
+
+li {
+  width: 100%;
+}
+
+/* Adicionei essas linhas para tornar o layout mais bonito */
+header {
+  background-image: linear-gradient(to bottom, #333, #555);
+}
+
+main {
+  background-color: #f7f7f7;
+}
+
+section {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+ul {
+  padding: 20px;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+  border-bottom: none;
 }
